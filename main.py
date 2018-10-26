@@ -17,7 +17,7 @@ def valid():
 
     username_error = ''
     password_error = ''
-    verify_error = ''
+    verify_error = '' 
     email_error = ''
         
     if len(username) < 3 or len(username) > 20 or username=='' or str.isalpha(username)==False: 
